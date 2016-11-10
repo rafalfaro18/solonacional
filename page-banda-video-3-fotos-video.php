@@ -2,7 +2,6 @@
 /* Template Name: Bandas Video-3-Fotos-Video */
 
 get_header(); ?>
-<!--<header id="myCarousel" class="carousel slide" data-ride="carousel">-->
 <header id="myCarousel" class="carousel slide">
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
