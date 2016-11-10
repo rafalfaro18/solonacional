@@ -1,0 +1,130 @@
+/* 
+*
+*   Theme Name: Solo Nacional
+*   Description: Custom built based on Easy Themes Tutorial and Bootstrap
+*   Author: @rafalfaro_18
+*   Version: 1.0
+*/
+
+/* ---------------------------------------------------------------------- */
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: /*4px*/3px;
+}
+
+.navbar li a:hover{
+    color: #97b0d8 !important;
+}
+
+/*header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.4)), url(/wp-content/themes/solonacional/images/IMG_0729_opt.jpg);
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}*/
+
+.img-circle{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: /*240*/280px;
+    max-height: /*240*/280px;
+}
+
+  .margin {padding:14px ;}
+
+  .bigger-margin{ margin: 24px;}
+
+  section { padding-bottom: 50px;}
+  
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  
+  .bg4{
+
+    background-color: #434343;
+    color: #b6b6b6;
+    font-size: large;
+
+  }
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;		background-attachment: fixed;		margin-bottom: 50px;
+}
+
+a.link-imagen-circular {
+    display: inline-flex;
+}
+
+#carouselButtons {
+    margin-left: 30px;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 50px;
+}
+
+
+.admin-bar .navbar-fixed-top {
+  top: 32px;
+}
+@media screen and (max-width: 782px) {
+  .admin-bar .navbar-fixed-top {
+    top: 46px;
+  }
+  
+  #wpadminbar {
+    position: fixed;
+	}
+  
+}
+
+aside li.widget, .widget_recent_entries li, .recientes-de li {
+    list-style-type: none !important;
+}
+
+.entry-content .ajustado iframe{
+	max-width: 100%;
+}
+
+textarea#comment {
+    max-width: 100%;
+}
+
+.fa-tripadvisor:before {
+    content: "bc";
+}
